@@ -18,6 +18,7 @@ info: ::1 - - [16/Feb/2023:10:38:29 +0000] "POST /api/v1/users HTTP/1.1" 201 299
 
 info: ::1 - - [16/Feb/2023:10:38:45 +0000] "POST /api/v1/users HTTP/1.1" 400 73 "-" "PostmanRuntime/7.31.0"
 
+<<<<<<< HEAD
 info: ::1 - - [16/Feb/2023:11:08:48 +0000] "GET /api/v1/users/chandra@rama.com HTTP/1.1" 500 105 "-" "PostmanRuntime/7.31.0"
 
 info: ::1 - - [16/Feb/2023:11:33:55 +0000] "POST /api/v1/users HTTP/1.1" 400 73 "-" "PostmanRuntime/7.31.0"
@@ -311,4 +312,23 @@ info: ::1 - - [16/Feb/2023:16:21:56 +0000] "POST /api/v1/users HTTP/1.1" 400 87 
 info: ::1 - - [16/Feb/2023:16:26:38 +0000] "POST /api/v1/users HTTP/1.1" 400 87 "-" "PostmanRuntime/7.31.0"
 
 info: ::1 - - [16/Feb/2023:16:26:49 +0000] "POST /api/v1/users HTTP/1.1" 201 307 "-" "PostmanRuntime/7.31.0"
+=======
+info: ::1 - - [16/Feb/2023:17:32:03 +0000] "POST /api/v1/users/login HTTP/1.1" 500 76 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [16/Feb/2023:17:34:55 +0000] "POST /api/v1/users/login HTTP/1.1" 400 87 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [16/Feb/2023:17:39:17 +0000] "POST /api/v1/users/login HTTP/1.1" 400 87 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [16/Feb/2023:17:44:39 +0000] "POST /api/v1/users/login HTTP/1.1" 200 75 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [16/Feb/2023:17:44:47 +0000] "POST /api/v1/users/login HTTP/1.1" 400 68 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [16/Feb/2023:17:44:53 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [16/Feb/2023:17:45:52 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [16/Feb/2023:17:46:28 +0000] "POST /api/v1/users/login HTTP/1.1" 400 68 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [16/Feb/2023:17:46:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 72 "-" "PostmanRuntime/7.31.0"
+>>>>>>> Login
 

@@ -124,6 +124,7 @@ error:
    {"timestamp":"2023-02-16T10:27:26.931Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T10:38:13.072Z"}
 info: Connected to the database. {"timestamp":"2023-02-16T10:38:13.111Z"}
+<<<<<<< HEAD
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T11:08:41.948Z"}
 info: Connected to the database. {"timestamp":"2023-02-16T11:08:42.009Z"}
 error: 
@@ -142,6 +143,22 @@ error:
     at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
     at Object.getUser (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:9:21)
     at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:40:36)
+=======
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T16:53:56.942Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T16:53:56.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T16:54:01.843Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T16:54:01.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T17:26:02.712Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T17:26:02.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T17:27:37.170Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T17:27:37.200Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T17:31:38.681Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T17:31:38.718Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getAllUsers is not a function
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:52:34)
+>>>>>>> Login
     at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
     at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
     at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
@@ -150,6 +167,7 @@ error:
     at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
     at new Promise (<anonymous>)
     at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+<<<<<<< HEAD
     at login (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:37:19)
     at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
     at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
@@ -257,6 +275,9 @@ error:
     at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
     at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
     at newUserValidator (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\validators\/user.validator.js:19:5)
+=======
+    at login (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:50:19)
+>>>>>>> Login
     at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
     at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
     at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
@@ -289,6 +310,7 @@ error:
     at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
     at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
     at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+<<<<<<< HEAD
     at IncomingMessage.emit (node:events:539:35) 
     url - /api/v1/users 
     method - POST 
@@ -698,3 +720,27 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T1
 info: Connected to the database. {"timestamp":"2023-02-16T16:25:44.049Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T16:26:20.333Z"}
 info: Connected to the database. {"timestamp":"2023-02-16T16:26:20.361Z"}
+=======
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-16T17:32:03.870Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T17:33:52.455Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T17:33:52.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T17:34:44.130Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T17:34:44.161Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T17:37:39.203Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T17:37:39.250Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T17:39:07.233Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T17:39:07.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T17:44:22.215Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T17:44:22.242Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T17:44:31.425Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T17:44:31.458Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-16T17:47:02.426Z"}
+info: Connected to the database. {"timestamp":"2023-02-16T17:47:02.463Z"}
+>>>>>>> Login

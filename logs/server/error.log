@@ -112,6 +112,7 @@ error:
    {"timestamp":"2023-02-16T10:27:26.931Z"}
 error: 
     status - 500 
+<<<<<<< HEAD
     message - ObjectParameterError: Parameter "filter" to find() must be an object, got chandra@rama.com
     at model.Query.Query.find (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\mongoose\lib\query.js:2098:16)
     at Function.find (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\mongoose\lib\model.js:2157:13)
@@ -126,6 +127,10 @@ error:
     at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
     at Object.getUser (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:9:21)
     at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:40:36)
+=======
+    message - TypeError: UserService.getAllUsers is not a function
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:52:34)
+>>>>>>> Login
     at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
     at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
     at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
@@ -134,6 +139,7 @@ error:
     at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
     at new Promise (<anonymous>)
     at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+<<<<<<< HEAD
     at login (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:37:19)
     at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
     at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
@@ -213,6 +219,9 @@ error:
     at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
     at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
     at newUserValidator (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\validators\/user.validator.js:19:5)
+=======
+    at login (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:50:19)
+>>>>>>> Login
     at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
     at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
     at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
@@ -245,6 +254,7 @@ error:
     at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
     at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
     at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+<<<<<<< HEAD
     at IncomingMessage.emit (node:events:539:35) 
     url - /api/v1/users 
     method - POST 
@@ -560,3 +570,13 @@ ReferenceError: req is not defined
     at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
     at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
     at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Thu Feb 16 2023 21:49:13 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":45843},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18958522,"external":29219945,"heapTotal":81592320,"heapUsed":53216256,"rss":114884608},"pid":11948,"uid":null,"version":"v16.15.0"},"stack":"ReferenceError: req is not defined\n    at map (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/user.controller.js:7:14)\n    at Array.map (<anonymous>)\n    at _callee3$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/user.controller.js:7:6)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-02-16T16:19:13.187Z","trace":[{"column":14,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/user.controller.js","function":"map","line":7,"method":null,"native":false},{"column":null,"file":null,"function":"Array.map","line":null,"method":"map","native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/user.controller.js","function":"_callee3$","line":7,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+=======
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-16T17:32:03.870Z"}
+>>>>>>> Login
