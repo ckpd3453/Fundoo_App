@@ -1,0 +1,484 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T02:43:29.576Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T02:43:29.667Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" length must be at least 4 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T02:46:54.129Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T03:24:48.153Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T03:24:48.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T04:00:23.091Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:00:23.124Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T04:04:14.097Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:04:14.140Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T04:09:06.560Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:09:06.598Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T04:12:11.005Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:12:11.054Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:17:8)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUser (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:11:21)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newUser (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:10:21)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\validators\/user.validator.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T04:12:21.283Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T06:02:27.943Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T06:02:27.989Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:18:8)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUser (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:11:21)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newUser (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:10:21)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\validators\/user.validator.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T06:02:32.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T06:03:33.772Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T06:03:33.804Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'status')
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:31:11)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T06:03:40.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T06:08:34.459Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T06:08:34.493Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'status')
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:34:11)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T06:08:39.766Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T06:09:14.056Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T06:09:14.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T06:13:10.825Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T06:13:10.856Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T06:18:06.327Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T06:18:06.378Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'status')
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:32:11)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T06:18:09.188Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T06:22:04.195Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T06:22:04.234Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T06:44:47.355Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T06:44:47.412Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'status')
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:12:7)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUser (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:11:21)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newUser (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:10:21)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\validators\/user.validator.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T06:44:53.752Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:22:00.473Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:22:00.563Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'status')
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:12:7)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUser (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:11:21)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newUser (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:10:21)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\validators\/user.validator.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T07:22:05.039Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:23:17.143Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:23:17.183Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'code')
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:14:18)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T07:23:21.772Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:25:53.893Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:25:53.926Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'code')
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:14:18)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T07:25:59.940Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:28:48.509Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:28:48.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:29:07.516Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:29:07.554Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'status')
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:12:7)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUser (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:11:21)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newUser (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/user.controller.js:10:21)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\validators\/user.validator.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T07:29:10.192Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:30:58.330Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:30:58.369Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:31:42.073Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:31:42.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:33:29.015Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:33:29.049Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:34:21.179Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:34:21.215Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:34:27.365Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:34:27.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:36:13.822Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:36:13.868Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:36:46.685Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:36:46.724Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:36:57.279Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:36:57.320Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:37:54.725Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:37:54.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:44:15.034Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:44:15.067Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:45:28.079Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:45:28.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:49:30.129Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:49:30.169Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:52:20.448Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:52:20.479Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:53:55.316Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:53:55.356Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:54:04.701Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:54:04.734Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:55:30.822Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:55:30.852Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T07:56:14.867Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T07:56:14.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:02:21.689Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T08:02:21.735Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:04:10.514Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T08:04:10.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:04:38.276Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T08:04:38.306Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:08:04.059Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T08:08:04.095Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:08:31.097Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T08:08:31.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:10:05.291Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T08:10:05.322Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:12:10.836Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T08:12:10.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:14:48.569Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T08:14:48.601Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:15:03.268Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T08:15:03.311Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:16:01.813Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T08:16:01.844Z"}

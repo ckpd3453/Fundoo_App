@@ -9,32 +9,13 @@ import * as UserService from '../services/user.service';
  */
 export const newUser = async (req, res, next) => {
   try {
-    if (req.body.password !== req.body.confirmPassword) {
-      res.status(HttpStatus.BAD_REQUEST).json({
-        code: HttpStatus.BAD_REQUEST,
-        data: 'Password Mismatched',
-        message: 'Password Mismatched'
-      });
-    } else {
-      const db = await UserService.getAllUsers();
-      const check = db
-        .map((obj) => req.body.email == obj.email)
-        .filter((res) => res == true);
-      if (check[0] == null) {
-        const data = await UserService.newUser(req.body);
-        res.status(HttpStatus.CREATED).json({
-          code: HttpStatus.CREATED,
-          data: data,
-          message: 'User Registered successfully'
-        });
-      } else {
-        res.status(HttpStatus.BAD_REQUEST).json({
-          code: HttpStatus.BAD_REQUEST,
-          data: 'User is Already Registered',
-          message: 'User is Already Registered'
-        });
-      }
-    }
+    console.log('in Controller');
+    const data = await UserService.newUser(req.body);
+    res.status(data.code).json({
+      code: data.code,
+      data: data.data,
+      message: data.message
+    });
   } catch (error) {
     next(error);
   }
@@ -58,7 +39,6 @@ export const login = async (req, res, next) => {
       });
     } else {
       const passwordCheck = check[0].password;
-      console.log(passwordCheck, '**********************************');
       if (passwordCheck == req.body.password) {
         res.status(HttpStatus.OK).json({
           code: HttpStatus.OK,
