@@ -1,12 +1,7 @@
 import User from '../models/user.model';
 import HttpStatus from 'http-status-codes';
 import * as bcrypt from '../middlewares/bcrypt.middleware';
-
-// //get all users
-// export const getAllUsers = async () => {
-//   const data = await User.find();
-//   return data;
-// };
+import * as jwt from '../middlewares/jwt.middleware';
 
 async function userCheck(body) {
   return await User.findOne({ email: body.email });
@@ -32,7 +27,7 @@ export const newUser = async (body) => {
       };
       const data = await User.create(registration);
       response = {
-        code: HttpStatus.ACCEPTED,
+        code: HttpStatus.CREATED,
         data: data,
         message: 'User is Registered Successfully'
       };
@@ -52,7 +47,6 @@ export const login = async (body) => {
   var response;
 
   const check = await userCheck(body);
-  console.log('************************', check);
   if (check == null) {
     response = {
       code: HttpStatus.BAD_REQUEST,
@@ -63,9 +57,14 @@ export const login = async (body) => {
     const savedPassword = check.password;
     const passwordCheck = await bcrypt.match(body.password, savedPassword);
     if (passwordCheck) {
+      const token = await jwt.jwtToken(check);
+      const responseData = {
+        user: check,
+        Auth: token
+      };
       response = {
         code: HttpStatus.OK,
-        data: body.email,
+        data: responseData,
         message: 'Log in Successful'
       };
     } else {
