@@ -484,3 +484,82 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T0
 info: Connected to the database. {"timestamp":"2023-02-17T08:16:01.844Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:16:47.371Z"}
 info: Connected to the database. {"timestamp":"2023-02-17T08:16:47.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T08:18:43.701Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T08:18:43.727Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T09:28:29.454Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T09:28:29.533Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T09:29:08.343Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T09:29:08.399Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T09:37:23.578Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T09:37:23.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T09:39:07.022Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T09:39:07.090Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T10:48:31.074Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T10:48:31.162Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T10:49:12.316Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T10:49:12.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T10:53:11.426Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T10:53:11.459Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T11:03:40.965Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:03:41.040Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T11:06:33.214Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:06:33.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T11:07:48.225Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:07:48.295Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T11:08:48.335Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:08:48.378Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T11:13:01.618Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:13:01.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T11:13:49.098Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:13:49.130Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee3$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:70:15)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:13:54.417Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T11:14:50.567Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:14:50.597Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T11:15:37.839Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:15:37.882Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee3$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:70:15)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:15:40.531Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T11:19:02.146Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:19:02.189Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee3$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/user.service.js:70:15)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:19:10.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T11:19:51.229Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:19:51.277Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T11:20:33.612Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:20:33.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T11:21:28.733Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T11:21:28.797Z"}

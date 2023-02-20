@@ -1,15 +1,15 @@
 import User from '../models/user.model';
 import HttpStatus from 'http-status-codes';
+import * as bcrypt from '../middlewares/bcrypt.middleware';
 
-//get all users
-export const getAllUsers = async () => {
-  const data = await User.find();
-  return data;
-};
+// //get all users
+// export const getAllUsers = async () => {
+//   const data = await User.find();
+//   return data;
+// };
 
 async function userCheck(body) {
-  const users = await getAllUsers();
-  return users.filter((obj) => obj.email == body.email);
+  return await User.findOne({ email: body.email });
 }
 
 //create new user
@@ -23,8 +23,14 @@ export const newUser = async (body) => {
     };
   } else {
     const check = await userCheck(body);
-    if (check[0] == null) {
-      const data = await User.create(body);
+    if (check == null) {
+      const registration = {
+        firstName: body.firstName,
+        lastName: body.lastName,
+        email: body.email,
+        password: await bcrypt.securePassword(body.password)
+      };
+      const data = await User.create(registration);
       response = {
         code: HttpStatus.ACCEPTED,
         data: data,
@@ -45,19 +51,21 @@ export const newUser = async (body) => {
 export const login = async (body) => {
   var response;
 
-  const check = userCheck(body);
-  if (check[0] == null) {
+  const check = await userCheck(body);
+  console.log('************************', check);
+  if (check == null) {
     response = {
       code: HttpStatus.BAD_REQUEST,
       data: 'Login Failed',
       message: 'Invalid User Name'
     };
   } else {
-    const passwordCheck = check[0].password;
-    if (passwordCheck == body.password) {
+    const savedPassword = check.password;
+    const passwordCheck = await bcrypt.match(body.password, savedPassword);
+    if (passwordCheck) {
       response = {
         code: HttpStatus.OK,
-        data: req.body.email,
+        data: body.email,
         message: 'Log in Successful'
       };
     } else {

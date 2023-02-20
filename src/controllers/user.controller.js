@@ -7,17 +7,13 @@ import * as UserService from '../services/user.service';
  * @param {object} res - response object
  * @param {Function} next
  */
-export const newUser = async (req, res, next) => {
-  try {
-    const data = await UserService.newUser(req.body);
-    res.status(data.code).json({
-      code: data.code,
-      data: data.data,
-      message: data.message
-    });
-  } catch (error) {
-    next(error);
-  }
+export const newUser = async (req, res) => {
+  const data = await UserService.newUser(req.body);
+  res.status(data.code).json({
+    code: data.code,
+    data: data.data,
+    message: data.message
+  });
 };
 
 /**
@@ -26,15 +22,11 @@ export const newUser = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const login = async (req, res, next) => {
-  try {
-    const data = await UserService.login(req.body);
-    res.status(data.code).json({
-      code: data.code,
-      data: data.data,
-      message: data.message
-    });
-  } catch (error) {
-    next(error);
-  }
+export const login = async (req, res) => {
+  const data = await UserService.login(req.body);
+  res.status(data.code).json({
+    code: data.code,
+    data: data.data,
+    message: data.message
+  });
 };

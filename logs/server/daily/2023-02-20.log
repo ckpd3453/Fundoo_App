@@ -1,0 +1,37 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T03:11:24.277Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T03:11:24.398Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "aptarish" fails to match the required pattern: /^[A-Z]{1,1}[a-z]{2,30}$/ 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T03:21:21.084Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T03:21:46.845Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" should contain at least 1 uppercase character 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T03:22:18.251Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T03:34:57.276Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T03:34:57.348Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T04:01:03.572Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:01:03.606Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T04:01:53.761Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:01:53.795Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T04:06:34.537Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:06:34.573Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T04:08:08.774Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:08:08.814Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T04:08:25.572Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:08:25.604Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T04:10:11.455Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T04:10:11.489Z"}

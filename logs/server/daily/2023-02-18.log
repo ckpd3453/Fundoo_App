@@ -1,0 +1,271 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-18T03:24:46.898Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at database (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\config\\/database.js:4:15)\n    at Object.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\/index.js:30:9)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.runMain (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2023-02-18T03:25:16.917Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-18T03:26:49.109Z"}
+info: Connected to the database. {"timestamp":"2023-02-18T03:26:49.238Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).alphanum.min is not a function
+    at newUserValidator (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\validators\/user.validator.js:5:38)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-18T03:26:56.179Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).alphanum.min is not a function
+    at newUserValidator (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\validators\/user.validator.js:5:38)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-18T03:27:08.609Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-18T03:27:39.796Z"}
+info: Connected to the database. {"timestamp":"2023-02-18T03:27:39.839Z"}
+error: 
+    status - 500 
+    message - Error: regex must be a RegExp
+    at new module.exports (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.regex (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@hapi\joi\lib\types\string.js:526:17)
+    at newUserValidator (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\validators\/user.validator.js:14:8)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-18T03:27:52.924Z"}
+error: 
+    status - 500 
+    message - Error: regex must be a RegExp
+    at new module.exports (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.regex (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@hapi\joi\lib\types\string.js:526:17)
+    at newUserValidator (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\validators\/user.validator.js:14:8)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-18T03:28:23.515Z"}
+error: 
+    status - 500 
+    message - Error: regex must be a RegExp
+    at new module.exports (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at internals.Base.regex (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@hapi\joi\lib\types\string.js:526:17)
+    at newUserValidator (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\validators\/user.validator.js:14:8)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-18T03:28:40.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-18T03:28:59.742Z"}
+info: Connected to the database. {"timestamp":"2023-02-18T03:28:59.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-18T03:49:58.185Z"}
+info: Connected to the database. {"timestamp":"2023-02-18T03:49:58.227Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-18T04:55:24.949Z"}
+info: Connected to the database. {"timestamp":"2023-02-18T04:55:24.978Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-18T13:47:26.355Z"}
+info: Connected to the database. {"timestamp":"2023-02-18T13:47:26.501Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" should contain at least 2 special character 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-18T13:47:46.865Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" should contain at least 2 special character 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-18T13:47:59.066Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" should contain at least 2 uppercase character 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-18T13:48:07.405Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-18T13:48:50.592Z"}
+info: Connected to the database. {"timestamp":"2023-02-18T13:48:50.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-18T13:49:32.520Z"}
+info: Connected to the database. {"timestamp":"2023-02-18T13:49:32.556Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-18T13:55:46.346Z"}
+info: Connected to the database. {"timestamp":"2023-02-18T13:55:46.381Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "aarish12" fails to match the required pattern: /^[A-Z]{1,1}[a-z]{2,30}$/ 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-18T13:56:03.885Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "Aarish12" fails to match the required pattern: /^[A-Z]{1,1}[a-z]{2,30}$/ 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-18T13:56:20.352Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "aarish" fails to match the required pattern: /^[A-Z]{1,1}[a-z]{2,30}$/ 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-18T13:56:44.334Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-18T13:59:24.898Z"}
+info: Connected to the database. {"timestamp":"2023-02-18T13:59:24.940Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "aarish" fails to match the required pattern: /^[A-Z]{1,1}[a-z]{2,30}$/ 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-18T13:59:38.093Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-18T13:59:48.436Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-18T14:01:08.116Z"}
+info: Connected to the database. {"timestamp":"2023-02-18T14:01:08.166Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-18T14:01:43.715Z"}
+info: Connected to the database. {"timestamp":"2023-02-18T14:01:43.751Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-18T14:01:58.746Z"}
+info: Connected to the database. {"timestamp":"2023-02-18T14:01:58.779Z"}
