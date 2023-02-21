@@ -46,20 +46,21 @@ export const newUser = async (body) => {
 export const login = async (body) => {
   var response;
 
-  const check = await userCheck(body);
-  if (check == null) {
+  const user = await userCheck(body);
+  if (user == null) {
     response = {
       code: HttpStatus.BAD_REQUEST,
       data: 'Login Failed',
       message: 'Invalid User Name'
     };
   } else {
-    const savedPassword = check.password;
+    const savedPassword = user.password;
     const passwordCheck = await bcrypt.match(body.password, savedPassword);
     if (passwordCheck) {
-      const token = await jwt.jwtToken(check);
+      const token = jwt.jwtToken(user);
+      console.log(token);
       const responseData = {
-        user: check,
+        user: user,
         Auth: token
       };
       response = {

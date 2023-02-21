@@ -1,10 +1,14 @@
 import noteModel from '../models/note.model';
 import HttpStatus from 'http-status-codes';
+import jwt from 'jsonwebtoken';
 
 //To Get all notes
-export const getAll = async () => {
+export const getAll = async (token) => {
   var response;
-  const data = await noteModel.find();
+  const bearerToken = token.split(' ')[1];
+  const user = jwt.verify(bearerToken, process.env.Jwt_Key);
+  const datas = await noteModel.find();
+  const data = datas.filter((val) => val.userId === user.data._id);
   if (data != null) {
     response = {
       code: HttpStatus.OK,
@@ -22,11 +26,17 @@ export const getAll = async () => {
 };
 
 //To create note
-export const create = async (body) => {
-  console.log(body);
+export const create = async (body, token) => {
   var response;
-  const data = await noteModel.create(body);
-  console.log(data);
+  const bearerToken = token.split(' ')[1];
+  const user = jwt.verify(bearerToken, process.env.Jwt_Key);
+  const req = {
+    title: body.title,
+    describe: body.description,
+    colour: body.colour,
+    userId: user.data._id
+  };
+  const data = await noteModel.create(req);
   if (data != null) {
     response = {
       code: HttpStatus.CREATED,
@@ -44,19 +54,29 @@ export const create = async (body) => {
 };
 
 //To Get Note By Id
-export const getById = async (id) => {
+export const getById = async (noteId, token) => {
   var response;
-  const data = await noteModel.findById(id);
+  const bearerToken = token.split(' ')[1];
+  const user = jwt.verify(bearerToken, process.env.Jwt_Key);
+  const data = await noteModel.findById(noteId);
   if (data != null) {
-    response = {
-      code: HttpStatus.OK,
-      data: data,
-      message: 'Note Retrived successfully'
-    };
+    if (data.userId === user.data._id) {
+      response = {
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Note Retrived successfully'
+      };
+    } else {
+      response = {
+        code: HttpStatus.NOT_FOUND,
+        data: null,
+        message: 'Invalid Note Id'
+      };
+    }
   } else {
     response = {
       code: HttpStatus.NOT_FOUND,
-      data: data,
+      data: null,
       message: 'Invalid Note Id'
     };
   }
@@ -64,19 +84,32 @@ export const getById = async (id) => {
 };
 
 //To Update Note using note id
-export const update = async (_id, body) => {
+export const update = async (noteId, body, token) => {
   var response;
-  const data = await noteModel.findByIdAndUpdate({ _id }, body, { new: true });
+  const bearerToken = token.split(' ')[1];
+  const user = jwt.verify(bearerToken, process.env.Jwt_Key);
+  const data = await noteModel.findById(noteId);
   if (data != null) {
-    response = {
-      code: HttpStatus.OK,
-      data: data,
-      message: 'Note Updated Successfully'
-    };
+    if (data.userId === user.data._id) {
+      const data = await noteModel.findByIdAndUpdate(noteId, body, {
+        new: true
+      });
+      response = {
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Note Updated Successfully'
+      };
+    } else {
+      response = {
+        code: HttpStatus.NOT_FOUND,
+        data: 'No Such Note Present for this user.',
+        message: 'Note Id does not exist'
+      };
+    }
   } else {
     response = {
       code: HttpStatus.NOT_FOUND,
-      data: data,
+      data: 'No Such Note Present for this user.',
       message: 'Note Id does not exist'
     };
   }
@@ -84,19 +117,30 @@ export const update = async (_id, body) => {
 };
 
 //To delete note using note id
-export const deleteById = async (id) => {
+export const deleteById = async (noteId, token) => {
   var response;
-  const data = await noteModel.findByIdAndDelete(id);
+  const bearerToken = token.split(' ')[1];
+  const user = jwt.verify(bearerToken, process.env.Jwt_Key);
+  const data = await noteModel.findById(noteId);
   if (data != null) {
-    response = {
-      code: HttpStatus.OK,
-      data: data,
-      message: 'Note deleted successfully'
-    };
+    if (data.userId === user.data._id) {
+      const data = await noteModel.findByIdAndDelete(noteId);
+      response = {
+        code: HttpStatus.OK,
+        data: 'Deleted',
+        message: 'Note deleted successfully'
+      };
+    } else {
+      response = {
+        code: HttpStatus.NOT_FOUND,
+        data: 'Not Deleted',
+        message: 'Note Id does not exist'
+      };
+    }
   } else {
     response = {
       code: HttpStatus.NOT_FOUND,
-      data: data,
+      data: 'Not Deleted',
       message: 'Note Id does not exist'
     };
   }

@@ -7,7 +7,7 @@ import * as noteService from '../services/note.service';
  * @param {Object} res
  */
 export const getAll = async (req, res) => {
-  const data = await noteService.getAll();
+  const data = await noteService.getAll(req.rawHeaders[1]);
   res.status(data.code).json({
     code: data.code,
     data: data.data,
@@ -21,7 +21,7 @@ export const getAll = async (req, res) => {
  * @param {respose} res
  */
 export const create = async (req, res) => {
-  const data = await noteService.create(req.body);
+  const data = await noteService.create(req.body, req.rawHeaders[1]);
   res.status(data.code).json({
     code: data.code,
     data: data.data,
@@ -35,7 +35,7 @@ export const create = async (req, res) => {
  * @param {Object} res
  */
 export const getById = async (req, res) => {
-  const data = await noteService.getById(req.params._id);
+  const data = await noteService.getById(req.params._id, req.rawHeaders[1]);
   res.status(data.code).json({
     code: data.code,
     data: data.data,
@@ -49,7 +49,11 @@ export const getById = async (req, res) => {
  * @param {Object} res
  */
 export const update = async (req, res) => {
-  const data = await noteService.update(req.params._id, req.body);
+  const data = await noteService.update(
+    req.params._id,
+    req.body,
+    req.rawHeaders[1]
+  );
   res.status(data.code).json({
     code: data.code,
     data: data.data,
@@ -63,7 +67,7 @@ export const update = async (req, res) => {
  * @param {Object} res
  */
 export const deleteById = async (req, res) => {
-  const data = await noteService.deleteById(req.params._id);
+  const data = await noteService.deleteById(req.params._id, req.rawHeaders[1]);
   res.status(data.code).json({
     code: data.code,
     data: data.data,
