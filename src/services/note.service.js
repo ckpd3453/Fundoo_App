@@ -146,3 +146,107 @@ export const deleteById = async (noteId, token) => {
   }
   return response;
 };
+
+export const archive = async (noteId, token) => {
+  var response;
+  const data = await getById(noteId, token);
+  if (data != null) {
+    const body = data;
+    if (body.data.archive == false) {
+      console.log(body.data.archive);
+
+      const registration = {
+        title: body.data.title,
+        description: body.data.description,
+        colour: body.data.colour,
+        archive: true,
+        trash: body.data.trash,
+        userId: body.data.userId
+      };
+      const data = await noteModel.findByIdAndUpdate(noteId, registration, {
+        new: true
+      });
+      response = {
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Note Updated Successfully'
+      };
+    } else {
+      const registration = {
+        title: body.data.title,
+        description: body.data.description,
+        colour: body.data.colour,
+        archive: falsa,
+        trash: body.data.trash,
+        userId: body.data.userId
+      };
+      const data = await noteModel.findByIdAndUpdate(noteId, registration, {
+        new: true
+      });
+      response = {
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Note Updated Successfully'
+      };
+    }
+  } else {
+    response = {
+      code: HttpStatus.NOT_FOUND,
+      data: 'No Such Note Present for this user.',
+      message: 'Note Id does not exist'
+    };
+  }
+  return response;
+};
+
+export const trash = async (noteId, token) => {
+  var response;
+  const data = await getById(noteId, token);
+  if (data != null) {
+    const body = data;
+    if (body.data.trash == false) {
+      console.log(body.data.trash);
+
+      const registration = {
+        title: body.data.title,
+        description: body.data.description,
+        colour: body.data.colour,
+        archive: body.data.archive,
+        trash: true,
+        userId: body.data.userId
+      };
+      const data = await noteModel.findByIdAndUpdate(noteId, registration, {
+        new: true
+      });
+      response = {
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Note Updated Successfully'
+      };
+    } else {
+      const registration = {
+        title: body.data.title,
+        description: body.data.description,
+        colour: body.data.colour,
+        archive: body.data.archive,
+        trash: false,
+        userId: body.data.userId
+      };
+      const data = await noteModel.findByIdAndUpdate(noteId, registration, {
+        new: true
+      });
+      response = {
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Note Updated Successfully'
+      };
+    }
+  } else {
+    response = {
+      code: HttpStatus.NOT_FOUND,
+      data: 'No Such Note Present for this user.',
+      message: 'Note Id does not exist'
+    };
+  }
+  return response;
+};

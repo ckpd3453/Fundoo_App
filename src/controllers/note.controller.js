@@ -74,3 +74,31 @@ export const deleteById = async (req, res) => {
     message: data.message
   });
 };
+
+/**
+ * Trash Notes || Untrash Notes
+ * @param {Object} req
+ * @param {Object} res
+ */
+export const trash = async (req, res) => {
+  const data = await noteService.trash(req.params._id, req.rawHeaders[1]);
+  res.status(data.code).json({
+    code: data.code,
+    data: data.data,
+    message: data.message
+  });
+};
+
+/**
+ * Archive Notes || UnArchive Notes
+ * @param {Object} req
+ * @param {Object} res
+ */
+export const archive = async (req, res) => {
+  const data = await noteService.archive(req.params._id, req.rawHeaders[1]);
+  res.status(data.code).json({
+    code: data.code,
+    data: data.data,
+    message: data.message
+  });
+};
