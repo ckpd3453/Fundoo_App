@@ -58,7 +58,6 @@ export const login = async (body) => {
     const passwordCheck = await bcrypt.match(body.password, savedPassword);
     if (passwordCheck) {
       const token = jwt.jwtToken(user);
-      console.log(token);
       const responseData = {
         user: user,
         Auth: token

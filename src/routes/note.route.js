@@ -8,6 +8,12 @@ const router = express.Router();
 //To Get All Notes of Particular user
 router.get('', userAuth, noteController.getAll);
 
+// //Get All Trash Notes
+// router.get('/trashed', userAuth, noteController.getAllTrash);
+
+// //Get All Archive Notes
+// router.get('/archive', userAuth, noteController.getAllArchive);
+
 //To Create new notes for Particular user
 router.post('', newNoteValidator, userAuth, noteController.create);
 
