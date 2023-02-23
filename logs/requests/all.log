@@ -2112,3 +2112,749 @@ info: ::1 - - [22/Feb/2023:07:03:06 +0000] "PUT /api/v1/notes/trash/63f5bd051032
 
 info: ::1 - - [22/Feb/2023:07:03:08 +0000] "PUT /api/v1/notes/trash/63f5bd051032f537f879189f HTTP/1.1" 200 307 "-" "PostmanRuntime/7.31.0"
 
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:08:19:09 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:34:40)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Feb 22 2023 13:49:09 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:34:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":366356},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18937199,"external":29824926,"heapTotal":101335040,"heapUsed":77647168,"rss":134209536},"pid":5632,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:34:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":34,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:10:36:27 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected { …(8) } to be an array
+AssertionError: expected { …(8) } to be an array
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:43:39)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Feb 22 2023 16:06:27 GMT+0530 (India Standard Time)","error":{"actual":{"__v":0,"_id":"63f5f02bbf611045d4032070","createdAt":"2023-02-22T10:36:27.217Z","email":"krishnaa@01gmail.net","firstName":"Aaptarish","lastName":"Prasad","password":"$2b$10$24wwnqTgniOf295bAVA9a.qpTAGhb6f0u7Rqa5PwGJrKT.wkJxCm2","updatedAt":"2023-02-22T10:36:27.217Z"},"message":"expected { …(8) } to be an array","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected { …(8) } to be an array\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:43:39)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":374594},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19638065,"external":24802073,"heapTotal":83898368,"heapUsed":62543664,"rss":118272000},"pid":17876,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected { …(8) } to be an array\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:43:39)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":39,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:10:37:11 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:10:46:34 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:11:21:54 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:11:22:43 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:11:23:43 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:11:24:37 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected { …(8) } to be an array
+AssertionError: expected { …(8) } to be an array
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:43:39)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Feb 22 2023 16:54:37 GMT+0530 (India Standard Time)","error":{"actual":{"__v":0,"_id":"63f5fb74ec3041490458b370","createdAt":"2023-02-22T11:24:36.877Z","email":"krishnaa@01gmail.net","firstName":"Aaptarish","lastName":"Prasad","password":"$2b$10$W6FdyvsmvSIAiGE0nw.3a.CK5Qr3A49.1X5nrx3pbOWWNGwzyMu8u","updatedAt":"2023-02-22T11:24:36.877Z"},"message":"expected { …(8) } to be an array","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected { …(8) } to be an array\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:43:39)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":377484},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19669550,"external":24789871,"heapTotal":83898368,"heapUsed":61722592,"rss":118456320},"pid":18692,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected { …(8) } to be an array\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:43:39)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":39,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":43,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:11:25:22 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:11:28:13 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:11:43:47 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:11:45:20 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:11:54:18 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:16:42:52 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:16:42:52 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:00:27 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:00:27 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 'password.minOfSpecialCharacters' to be a login failed
+AssertionError: expected 'password.minOfSpecialCharacters' to be a login failed
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:62:39)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Feb 22 2023 22:30:27 GMT+0530 (India Standard Time)","error":{"actual":"password.minOfSpecialCharacters","message":"expected 'password.minOfSpecialCharacters' to be a login failed","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected 'password.minOfSpecialCharacters' to be a login failed\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:62:39)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":397633},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18333827,"external":19395047,"heapTotal":84983808,"heapUsed":52412680,"rss":115687424},"pid":13556,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected 'password.minOfSpecialCharacters' to be a login failed\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:62:39)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":39,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:01:48 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:01:48 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 'password.minOfSpecialCharacters' to be a password.minofspecialcharacters
+AssertionError: expected 'password.minOfSpecialCharacters' to be a password.minofspecialcharacters
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:62:39)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Feb 22 2023 22:31:48 GMT+0530 (India Standard Time)","error":{"actual":"password.minOfSpecialCharacters","message":"expected 'password.minOfSpecialCharacters' to be a password.minofspecialcharacters","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected 'password.minOfSpecialCharacters' to be a password.minofspecialcharacters\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:62:39)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":397714},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18342019,"external":19409728,"heapTotal":84721664,"heapUsed":52324712,"rss":115650560},"pid":15940,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected 'password.minOfSpecialCharacters' to be a password.minofspecialcharacters\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:62:39)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":39,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:04:05 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:04:05 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:04:05 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:06:02 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:06:02 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected undefined to equal 'Invalid User Password'
+AssertionError: expected undefined to equal 'Invalid User Password'
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:63:37)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Feb 22 2023 22:36:02 GMT+0530 (India Standard Time)","error":{"expected":"Invalid User Password","message":"expected undefined to equal 'Invalid User Password'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected undefined to equal 'Invalid User Password'\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:63:37)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":397969},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18353026,"external":24847772,"heapTotal":84983808,"heapUsed":52389024,"rss":115937280},"pid":7480,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected undefined to equal 'Invalid User Password'\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:63:37)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":37,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":63,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:06:26 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:06:26 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '"password" should contain at least 1 …' to equal 'Invalid User Password'
+AssertionError: expected '"password" should contain at least 1 …' to equal 'Invalid User Password'
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:63:42)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Feb 22 2023 22:36:26 GMT+0530 (India Standard Time)","error":{"actual":"\"password\" should contain at least 1 special character","expected":"Invalid User Password","message":"expected '\"password\" should contain at least 1 …' to equal 'Invalid User Password'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected '\"password\" should contain at least 1 …' to equal 'Invalid User Password'\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:63:42)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":397992},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18450089,"external":24857588,"heapTotal":84983808,"heapUsed":53107104,"rss":115703808},"pid":2756,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected '\"password\" should contain at least 1 …' to equal 'Invalid User Password'\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:63:42)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":42,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":63,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:07:25 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:07:25 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '"password" should contain at least 1 …' to equal 'Invalid '
+AssertionError: expected '"password" should contain at least 1 …' to equal 'Invalid '
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:63:42)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Feb 22 2023 22:37:25 GMT+0530 (India Standard Time)","error":{"actual":"\"password\" should contain at least 1 special character","expected":"Invalid ","message":"expected '\"password\" should contain at least 1 …' to equal 'Invalid '","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected '\"password\" should contain at least 1 …' to equal 'Invalid '\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:63:42)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":398052},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18469150,"external":24876601,"heapTotal":84983808,"heapUsed":53228208,"rss":115609600},"pid":2076,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected '\"password\" should contain at least 1 …' to equal 'Invalid '\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:63:42)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":42,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":63,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:08:17 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:08:17 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '"password" should contain at least 1 …' to equal 'password should contain at least 1 sp…'
+AssertionError: expected '"password" should contain at least 1 …' to equal 'password should contain at least 1 sp…'
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:63:42)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Feb 22 2023 22:38:17 GMT+0530 (India Standard Time)","error":{"actual":"\"password\" should contain at least 1 special character","expected":"password should contain at least 1 special character ","message":"expected '\"password\" should contain at least 1 …' to equal 'password should contain at least 1 sp…'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected '\"password\" should contain at least 1 …' to equal 'password should contain at least 1 sp…'\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:63:42)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":398104},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18382913,"external":24858015,"heapTotal":85245952,"heapUsed":52385640,"rss":116064256},"pid":20316,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected '\"password\" should contain at least 1 …' to equal 'password should contain at least 1 sp…'\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:63:42)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":42,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":63,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:08:44 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:08:44 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '"password" should contain at least 1 …' to equal '"password" should contain at least 1 …'
+AssertionError: expected '"password" should contain at least 1 …' to equal '"password" should contain at least 1 …'
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:63:42)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Feb 22 2023 22:38:44 GMT+0530 (India Standard Time)","error":{"actual":"\"password\" should contain at least 1 special character","expected":"\"password\" should contain at least 1 special character ","message":"expected '\"password\" should contain at least 1 …' to equal '\"password\" should contain at least 1 …'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected '\"password\" should contain at least 1 …' to equal '\"password\" should contain at least 1 …'\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:63:42)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":398131},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18458639,"external":24864737,"heapTotal":84983808,"heapUsed":53320040,"rss":115458048},"pid":10956,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected '\"password\" should contain at least 1 …' to equal '\"password\" should contain at least 1 …'\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:63:42)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":42,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":63,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:09:25 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:09:25 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '"password" should contain at least 1 …' to equal '"password" should contain at least 1 …'
+AssertionError: expected '"password" should contain at least 1 …' to equal '"password" should contain at least 1 …'
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:63:42)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Wed Feb 22 2023 22:39:25 GMT+0530 (India Standard Time)","error":{"actual":"\"password\" should contain at least 1 special character","expected":"\"password\" should contain at least 1 special character ","message":"expected '\"password\" should contain at least 1 …' to equal '\"password\" should contain at least 1 …'","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected '\"password\" should contain at least 1 …' to equal '\"password\" should contain at least 1 …'\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:63:42)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":398171},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18354881,"external":24858021,"heapTotal":85245952,"heapUsed":52554248,"rss":116142080},"pid":696,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected '\"password\" should contain at least 1 …' to equal '\"password\" should contain at least 1 …'\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:63:42)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":42,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":63,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:09:48 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:09:48 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:09:48 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:48:34 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:48:34 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:48:35 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:48:35 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:50:18 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:50:18 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:50:18 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:17:50:18 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [23/Feb/2023:03:28:07 +0000] "GET /api/v1/notes/63f5bd051032f537f879189f HTTP/1.1" 200 310 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [23/Feb/2023:03:28:39 +0000] "POST /api/v1/notes HTTP/1.1" 201 297 "-" "PostmanRuntime/7.31.0"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:31:38 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:31:38 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:31:38 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:31:38 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:31:38 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:112:40)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Feb 23 2023 09:01:38 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:112:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":435505},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18520673,"external":25046271,"heapTotal":85245952,"heapUsed":54486936,"rss":116031488},"pid":18440,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:112:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":112,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:33:49 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:33:49 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:33:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:33:49 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:33:49 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:112:40)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Feb 23 2023 09:03:49 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:112:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":435635},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18532374,"external":25100656,"heapTotal":84983808,"heapUsed":54573504,"rss":115658752},"pid":17992,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:112:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":112,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:36:06 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:36:06 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:36:06 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:36:06 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:36:06 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:113:40)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Feb 23 2023 09:06:06 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":435773},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19666915,"external":23251964,"heapTotal":84172800,"heapUsed":61113552,"rss":116367360},"pid":13880,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":113,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:37:38 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:37:38 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:37:38 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:37:38 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:37:38 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:113:40)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Feb 23 2023 09:07:38 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":435865},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18803926,"external":23666805,"heapTotal":82624512,"heapUsed":55482704,"rss":113545216},"pid":6316,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":113,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:38:43 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:38:43 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:38:43 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:38:43 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:38:43 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:113:40)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Feb 23 2023 09:08:43 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":435930},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18518174,"external":25014326,"heapTotal":84983808,"heapUsed":54377896,"rss":115888128},"pid":14804,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":113,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:40:47 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:40:47 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:40:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:40:47 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:41:29 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:41:29 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:41:29 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:41:29 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:42:28 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:42:28 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:42:29 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:42:29 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:43:18 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:43:18 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:43:18 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:43:18 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:03:43:18 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:113:40)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Feb 23 2023 09:13:18 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":436205},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18499906,"external":25013990,"heapTotal":84983808,"heapUsed":54583408,"rss":115765248},"pid":3520,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:113:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":113,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:19:17 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:19:17 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:19:17 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:19:17 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:19:18 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:20:10 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:20:10 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:20:10 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:20:10 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:20:40 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:20:40 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:20:40 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:20:40 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:20:40 +0000] "POST /api/v1/notes HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:114:40)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Feb 23 2023 09:50:40 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:114:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":438447},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19620327,"external":27431474,"heapTotal":84164608,"heapUsed":62429448,"rss":116502528},"pid":7188,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:114:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":114,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:21:11 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:21:11 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:21:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:21:11 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:21:11 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:24:46 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:24:46 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:24:46 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:24:46 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:24:46 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:24:46 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:130:40)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Feb 23 2023 09:54:46 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:130:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":438693},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18434766,"external":24568439,"heapTotal":87080960,"heapUsed":57128992,"rss":118296576},"pid":5112,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:130:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":130,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:25:18 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:25:18 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:25:18 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:25:18 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:25:18 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:25:18 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:29:16 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:29:16 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:29:17 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:29:17 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:29:17 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:29:17 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:29:17 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:142:40)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Feb 23 2023 09:59:17 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:142:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":438963},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18427843,"external":25154547,"heapTotal":85245952,"heapUsed":55327008,"rss":116416512},"pid":3932,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:142:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":142,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:30:30 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:30:30 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:30:30 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:30:30 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:30:30 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:30:30 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:30:30 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:31:01 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:31:01 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:31:01 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:31:01 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:31:01 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:31:01 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:31:01 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:31:37 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:31:37 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:31:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:31:37 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:31:37 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:31:37 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:31:37 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:32:23 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:32:23 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:32:23 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:32:23 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:32:23 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:32:23 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:32:23 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:35:28 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:35:28 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:35:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:35:28 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:35:28 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:35:28 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:35:28 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:35:28 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:48:43 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:48:43 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:48:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:48:44 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:48:44 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:48:44 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:48:44 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:48:44 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:50:47 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:50:47 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:50:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:50:47 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:50:47 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:50:47 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:50:47 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:50:47 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:02 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:02 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:02 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:02 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:02 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:02 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:02 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:02 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:49 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:49 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:50 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:50 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:50 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:50 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:50 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:50 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:52:50 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:54:25 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:54:25 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:54:25 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:54:25 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:54:25 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:54:25 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:54:25 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:54:25 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:54:25 +0000] "GET /api/v1/notes/63f6f1815142780cf02defc3 HTTP/1.1" 200 305 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:56:46 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:56:46 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:56:46 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:56:46 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:56:46 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:56:46 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:56:46 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:56:46 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:56:46 +0000] "GET /api/v1/notes/63f6f20eafe9463740a25d40 HTTP/1.1" 200 305 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:58:38 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:58:38 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:58:39 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:58:39 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:58:39 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:58:39 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:58:39 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:58:39 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:58:39 +0000] "GET /api/v1/notes/63f6f27fc72da21fac6f9ce3 HTTP/1.1" 200 305 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:59:49 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:59:49 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:59:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:59:49 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:59:49 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:59:49 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:59:49 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:59:49 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:04:59:49 +0000] "GET /api/v1/notes/63f6f2c5f5fc801ec856d6d8 HTTP/1.1" 200 305 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:09:28 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:09:28 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:09:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:09:28 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:09:28 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:09:28 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:09:28 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:09:28 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:09:28 +0000] "GET /api/v1/notes/63f6f5089f6ebb0e00366ce7 HTTP/1.1" 200 305 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:09:28 +0000] "PUT /api/v1/notes/63f6f5089f6ebb0e00366ce7 HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:201:40)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Feb 23 2023 10:39:28 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:201:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":441375},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=20000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19205594,"external":24116033,"heapTotal":86274048,"heapUsed":60131480,"rss":117837824},"pid":3584,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:201:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":201,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:12:24 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:12:24 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:12:24 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:12:24 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:12:24 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:12:24 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:12:24 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:12:24 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:12:24 +0000] "GET /api/v1/notes/63f6f5b8da9ede116c3fd977 HTTP/1.1" 200 305 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:12:24 +0000] "PUT /api/v1/notes/63f6f5b8da9ede116c3fd977 HTTP/1.1" 200 310 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:16:32 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:16:32 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:16:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:16:32 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:16:32 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:16:32 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:16:32 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:16:32 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:16:32 +0000] "GET /api/v1/notes/63f6f6b0693fb01a80dc4a3f HTTP/1.1" 200 305 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:16:32 +0000] "PUT /api/v1/notes/63f6f6b0693fb01a80dc4a3f HTTP/1.1" 200 310 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:16:32 +0000] "DELETE /api/v1/notes/63f6f6b0693fb01a80dc4a3f HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\tests\integration\/user.test.js:214:40)
+    at Test.assert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Feb 23 2023 10:46:32 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:214:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":441799},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=20000","tests/**/*.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19379745,"external":27534985,"heapTotal":86016000,"heapUsed":61923456,"rss":118308864},"pid":6784,"uid":null,"version":"v16.15.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js:214:40)\n    at Test.assert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:641:28)\n    at Server.emit (node:events:527:28)\n    at emitCloseNT (node:net:1728:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\tests\\integration\\/user.test.js","function":null,"line":214,"method":null,"native":false},{"column":6,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":527,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1728,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:17:03 +0000] "POST /api/v1/users HTTP/1.1" 201 333 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:17:03 +0000] "POST /api/v1/users HTTP/1.1" 400 122 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:17:03 +0000] "POST /api/v1/users/login HTTP/1.1" 200 813 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:17:03 +0000] "POST /api/v1/users/login HTTP/1.1" 400 64 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:17:03 +0000] "POST /api/v1/notes HTTP/1.1" 201 300 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:17:03 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:17:03 +0000] "GET /api/v1/notes HTTP/1.1" 200 307 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:17:03 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:17:03 +0000] "GET /api/v1/notes/63f6f6cfb93f6446b8c1fcb2 HTTP/1.1" 200 305 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:17:03 +0000] "PUT /api/v1/notes/63f6f6cfb93f6446b8c1fcb2 HTTP/1.1" 200 310 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [23/Feb/2023:05:17:03 +0000] "DELETE /api/v1/notes/63f6f6cfb93f6446b8c1fcb2 HTTP/1.1" 200 67 "-" "node-superagent/3.8.3"
+
