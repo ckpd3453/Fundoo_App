@@ -30,3 +30,21 @@ export const login = async (req, res) => {
     message: data.message
   });
 };
+
+export const forgetPassword = async (req, res) => {
+  const data = await UserService.forgetPassword(req.body);
+  res.status(data.code).json({
+    code: data.code,
+    data: data.data,
+    message: data.message
+  });
+};
+
+export const resetPassword = async (req, res) => {
+  const data = await UserService.resetPassword(req.body);
+  res.status(data.code).json({
+    code: data.code,
+    data: data.data,
+    message: data.message
+  });
+};

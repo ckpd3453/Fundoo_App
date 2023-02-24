@@ -3,6 +3,37 @@ import HttpStatus from 'http-status-codes';
 import * as bcrypt from '../middlewares/bcrypt.middleware';
 import * as jwt from '../middlewares/jwt.middleware';
 
+const nodemailer = require('nodemailer');
+var token;
+const sendVerificationMail = (email) => {
+  const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: process.env.email,
+      pass: process.env.password
+    }
+  });
+  const mailConfigurations = {
+    from: 'chandrakantprasad573@gmail.com',
+
+    to: email,
+
+    subject: 'For Email Verification',
+
+    text: `Hi! There, You have recently visited our website and entered your email.
+   
+             Requested OTP : - ${token} 
+         
+             Thanks`
+  };
+
+  transporter.sendMail(mailConfigurations, function (error, info) {
+    if (error) throw Error(error);
+    console.log('Email Sent Successfully to', info.envelope.to[0]);
+  });
+};
+
+//User Check Function
 async function userCheck(body) {
   return await User.findOne({ email: body.email });
 }
@@ -57,7 +88,7 @@ export const login = async (body) => {
     const savedPassword = user.password;
     const passwordCheck = await bcrypt.match(body.password, savedPassword);
     if (passwordCheck) {
-      const token = jwt.jwtToken(user);
+      token = jwt.jwtToken(user);
       const responseData = {
         user: user,
         Auth: token
@@ -74,6 +105,56 @@ export const login = async (body) => {
         message: 'Invalid User Password'
       };
     }
+  }
+  return response;
+};
+
+export const forgetPassword = async (body) => {
+  var response;
+  const user = await userCheck(body);
+  if (user == null) {
+    response = {
+      code: HttpStatus.BAD_REQUEST,
+      data: `${body.email} is not registered. `,
+      message: 'Pease register your email id.'
+    };
+  } else {
+    sendVerificationMail(body.email);
+    response = {
+      code: HttpStatus.OK,
+      data: `Link Sent`,
+      message: 'link sent to your verification mail'
+    };
+  }
+  return response;
+};
+
+export const resetPassword = async (body) => {
+  var response;
+  console.log(body);
+  if (body.resetPassword !== null) {
+    const user = await User.findById(body.userId);
+    const update = {
+      firstName: user.firstName,
+      lastName: user.lastName,
+      email: user.email,
+      password: await bcrypt.securePassword(body.resetPassword)
+    };
+
+    const data = await User.findByIdAndUpdate(body.userId, update, {
+      new: true
+    });
+    response = {
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Checked'
+    };
+  } else {
+    response = {
+      code: HttpStatus.BAD_REQUEST,
+      data: null,
+      message: 'Please enter password to reset'
+    };
   }
   return response;
 };

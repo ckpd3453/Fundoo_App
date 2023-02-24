@@ -23,7 +23,13 @@ export const newUserValidator = (req, res, next) => {
       .minOfNumeric(1)
       .noWhiteSpaces()
       .required(),
-    confirmPassword: Joi.string().min(6).required()
+    resetPassword: joiPassword
+      .string()
+      .minOfSpecialCharacters(1)
+      .minOfLowercase(1)
+      .minOfUppercase(1)
+      .minOfNumeric(1)
+      .noWhiteSpaces()
   });
   const { error, value } = schema.validate(req.body);
   if (error) {
