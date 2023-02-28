@@ -4,8 +4,7 @@ import * as bcrypt from '../middlewares/bcrypt.middleware';
 import * as jwt from '../middlewares/jwt.middleware';
 
 const nodemailer = require('nodemailer');
-var token;
-const sendVerificationMail = (email) => {
+const sendVerificationMail = (email, token) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
@@ -41,34 +40,27 @@ async function userCheck(body) {
 //create new user
 export const newUser = async (body) => {
   var response;
-  if (body.password !== body.confirmPassword) {
+
+  const check = await userCheck(body);
+  if (check == null) {
+    const registration = {
+      firstName: body.firstName,
+      lastName: body.lastName,
+      email: body.email,
+      password: await bcrypt.securePassword(body.password)
+    };
+    const data = await User.create(registration);
     response = {
-      code: HttpStatus.BAD_REQUEST,
-      data: 'Password Mismatched',
-      message: 'Password Mismatched'
+      code: HttpStatus.CREATED,
+      data: data,
+      message: 'User is Registered Successfully'
     };
   } else {
-    const check = await userCheck(body);
-    if (check == null) {
-      const registration = {
-        firstName: body.firstName,
-        lastName: body.lastName,
-        email: body.email,
-        password: await bcrypt.securePassword(body.password)
-      };
-      const data = await User.create(registration);
-      response = {
-        code: HttpStatus.CREATED,
-        data: data,
-        message: 'User is Registered Successfully'
-      };
-    } else {
-      response = {
-        code: HttpStatus.BAD_REQUEST,
-        data: 'User is Already Registered',
-        message: 'User is Already Registered'
-      };
-    }
+    response = {
+      code: HttpStatus.BAD_REQUEST,
+      data: 'User is Already Registered',
+      message: 'User is Already Registered'
+    };
   }
   return response;
 };
@@ -88,7 +80,7 @@ export const login = async (body) => {
     const savedPassword = user.password;
     const passwordCheck = await bcrypt.match(body.password, savedPassword);
     if (passwordCheck) {
-      token = jwt.jwtToken(user);
+      var token = jwt.jwtToken(user);
       const responseData = {
         user: user,
         Auth: token
@@ -119,7 +111,8 @@ export const forgetPassword = async (body) => {
       message: 'Pease register your email id.'
     };
   } else {
-    sendVerificationMail(body.email);
+    var token = jwt.jwtToken(user);
+    sendVerificationMail(body.email, token);
     response = {
       code: HttpStatus.OK,
       data: `Link Sent`,
@@ -147,7 +140,7 @@ export const resetPassword = async (body) => {
     response = {
       code: HttpStatus.OK,
       data: data,
-      message: 'Checked'
+      message: 'Password reset successful.'
     };
   } else {
     response = {

@@ -1,0 +1,400 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T05:03:11.409Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T05:03:11.555Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T05:19:01.984Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T05:19:02.022Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T05:21:39.704Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T05:21:39.740Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T05:34:01.953Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T05:34:01.994Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T05:36:30.763Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T05:36:30.874Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T05:43:17.426Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T05:43:17.491Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T05:44:27.099Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T05:44:27.148Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T05:49:07.515Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T05:49:07.547Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T06:38:26.216Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T06:38:26.264Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T06:39:35.380Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T06:39:35.417Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T06:40:26.223Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T06:40:26.266Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T06:40:52.969Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T06:40:53.031Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T06:41:59.816Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T06:41:59.853Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T06:47:57.238Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T06:47:57.274Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T06:52:49.287Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T06:52:49.363Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/reset 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T06:53:47.648Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T06:58:10.166Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T06:58:10.210Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T07:01:21.896Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T07:01:21.937Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/reset 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T07:01:48.173Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T07:29:05.303Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T07:29:05.357Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T07:30:00.719Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T07:30:00.751Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T07:30:39.486Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T07:30:39.554Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T07:32:30.556Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T07:32:30.597Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T07:32:46.852Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T07:32:46.904Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T07:35:24.744Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T07:35:24.815Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T07:37:17.328Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T07:37:17.366Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\jsonwebtoken\verify.js:53:17)
+    at userVerification (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:34:20)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:22:18)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T07:38:09.121Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T07:48:53.690Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T07:48:53.799Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T07:51:08.676Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T07:51:08.715Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T07:53:01.115Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T07:53:01.155Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T07:55:00.766Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T07:55:00.811Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/reset 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T07:55:46.903Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T07:56:37.901Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T07:56:37.954Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T07:58:39.691Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T07:58:39.738Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/reset 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T07:59:29.294Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:02:00.371Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:02:00.404Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/reset 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T08:02:39.399Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:06:17.459Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:06:17.602Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:07:19.769Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:07:19.916Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:09:40.013Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:09:40.052Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:10:04.674Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:10:04.713Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:11:24.114Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:11:24.170Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:13:49.600Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:13:49.644Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:17:20.187Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:17:20.250Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:20:11.495Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:20:11.546Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:20:54.410Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:20:54.447Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:22:18.802Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:22:18.840Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:23:08.468Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:23:08.520Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:23:33.312Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:23:33.478Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:24:22.801Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:24:22.847Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/reset 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T08:24:51.453Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:25:50.977Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:25:51.020Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:26:39.715Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:26:39.759Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/reset 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T08:26:47.770Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:28:17.151Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:28:17.217Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/reset 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T08:28:38.113Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:29:10.590Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:29:10.639Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/reset 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T08:29:11.575Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:31:34.610Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:31:34.660Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:32:15.867Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:32:15.931Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:32:31.225Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:32:31.329Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/reset 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T08:33:01.917Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:35:31.843Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:35:31.926Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/reset 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T08:36:04.849Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:40:04.666Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:40:04.717Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\jsonwebtoken\verify.js:53:17)
+    at userVerification (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:37:20)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:25:18)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T08:40:36.739Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:41:57.565Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:41:57.619Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\jsonwebtoken\verify.js:53:17)
+    at userVerification (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:37:20)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:25:18)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T08:42:20.277Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:45:54.050Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:45:54.103Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\jsonwebtoken\verify.js:53:17)
+    at userVerification (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:37:20)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:25:18)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T08:46:11.318Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:47:10.056Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:47:10.098Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bearerToken is not defined
+    at userVerification (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:36:27)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:24:18)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T08:51:59.368Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:52:49.443Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:52:49.496Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:54:55.906Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:54:55.946Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T08:55:37.240Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T08:55:37.285Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/reset 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T08:56:30.757Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:07:46.202Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:07:46.238Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:08:34.341Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:08:34.377Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:10:55.207Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:10:55.243Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:12:52.575Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:12:52.626Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:14:22.510Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:14:22.554Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:15:02.020Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:15:02.076Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:18:54.953Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:18:55.008Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:21:19.242Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:21:19.282Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:21:52.747Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:21:52.806Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:22:58.823Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:22:58.874Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:30:20.928Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:30:21.274Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:31:29.072Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:31:29.107Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:32:50.983Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:32:51.038Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:33:55.014Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:33:55.056Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:41:45.090Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:41:45.157Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:42:18.262Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:42:18.351Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:44:03.700Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:44:03.744Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:48:11.871Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:48:11.918Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:50:27.911Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:50:27.998Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:53:09.592Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:53:09.647Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T09:55:59.460Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T09:55:59.513Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T10:01:45.859Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T10:01:45.915Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T10:04:34.875Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T10:04:34.934Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T10:31:54.343Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T10:31:54.529Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T10:34:50.071Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T10:34:50.148Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T10:36:03.891Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T10:36:03.925Z"}
