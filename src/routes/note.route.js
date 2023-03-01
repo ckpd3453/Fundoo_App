@@ -2,11 +2,12 @@ import express from 'express';
 import { userAuth } from '../middlewares/auth.middleware';
 import { newNoteValidator } from '../validators/note.validator';
 import * as noteController from '../controllers/note.controller';
+import * as redis from '../middlewares/redisData';
 
 const router = express.Router();
 
 //To Get All Notes of Particular user
-router.get('', userAuth, noteController.getAll);
+router.get('', userAuth, redis.cacheDb, noteController.getAll);
 
 // //Get All Trash Notes
 // router.get('/trashed', userAuth, noteController.getAllTrash);

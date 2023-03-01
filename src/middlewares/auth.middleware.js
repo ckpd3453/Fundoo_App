@@ -32,7 +32,7 @@ export const userAuth = async (req, res, next) => {
 };
 
 export const userVerification = (token) => {
-  // const bearerToken = token.split(' ')[1];         *If we want to test by postman then we need to take this comment off.
-  const user = jwt.verify(token, process.env.Jwt_Key);
+  const bearerToken = token.split(' ')[1];
+  const user = jwt.verify(bearerToken, process.env.Jwt_Key);
   return user;
 };

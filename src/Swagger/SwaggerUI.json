@@ -9,8 +9,8 @@
   "basePath": "/api/v1",
   "tags": [
     {
-      "name": "CLI",
-      "description": "Creating user......."
+      "name": "API's",
+      "description": "API Document"
     }
   ],
   "schemes": ["http"],

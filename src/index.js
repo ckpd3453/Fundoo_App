@@ -7,6 +7,7 @@ import helmet from 'helmet';
 
 import routes from './routes';
 import database from './config/database';
+import redisDb from './config/redisDb';
 import {
   appErrorHandler,
   genericErrorHandler,
@@ -29,6 +30,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(morgan('combined', { stream: logStream }));
 
+redisDb();
 database();
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.use(`/api/${api_version}`, routes());

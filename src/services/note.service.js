@@ -1,13 +1,13 @@
 import noteModel from '../models/note.model';
 import HttpStatus from 'http-status-codes';
-import jwt from 'jsonwebtoken';
-import { userVerification } from '../middlewares/auth.middleware';
+import { client } from '../config/redisDb';
 
 //To Get all notes
 export const getAll = async (userId) => {
   var response;
   const data = await noteModel.find({ userId: userId });
   if (data != null) {
+    await client.set('getall', JSON.stringify(data));
     response = {
       code: HttpStatus.OK,
       data: data,
@@ -26,7 +26,7 @@ export const getAll = async (userId) => {
 //To create note
 export const create = async (body) => {
   var response;
-
+  console.log(await client.del('getall'));
   const data = await noteModel.create(body);
   if (data != null) {
     response = {
@@ -72,6 +72,7 @@ export const update = async (noteId, body) => {
     const data = await noteModel.findByIdAndUpdate(noteId, body, {
       new: true
     });
+
     response = {
       code: HttpStatus.OK,
       data: data,
@@ -95,6 +96,7 @@ export const deleteById = async (noteId, userId) => {
 
   if (data != null) {
     const data = await noteModel.findByIdAndDelete(noteId);
+
     response = {
       code: HttpStatus.OK,
       data: 'Deleted',

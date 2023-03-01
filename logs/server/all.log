@@ -5594,3 +5594,878 @@ info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T1
 info: Connected to the database. {"timestamp":"2023-02-28T10:34:50.148Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T10:36:03.891Z"}
 info: Connected to the database. {"timestamp":"2023-02-28T10:36:03.925Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T10:48:44.656Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T10:48:44.727Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-28T11:37:56.822Z"}
+info: Connected to the database. {"timestamp":"2023-02-28T11:37:56.866Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\jsonwebtoken\verify.js:53:17)
+    at userVerification (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:36:20)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:24:18)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T11:40:10.124Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T04:57:47.640Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T04:57:47.735Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T05:41:48.445Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:41:48.539Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T05:44:10.186Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:44:10.228Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T05:45:06.885Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:45:06.985Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T05:46:07.702Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:46:07.770Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T05:49:07.991Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T05:49:08.067Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:12:14.166Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:12:14.212Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:15:06.759Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:15:06.808Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:16:47.004Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:16:47.068Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:19:05.328Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:19:05.381Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:35:12.625Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:35:12.737Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:39:23.339Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:39:23.383Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:40:22.162Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:40:22.208Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\jsonwebtoken\verify.js:53:17)
+    at userVerification (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/auth.middleware.js:36:20)
+    at getUser (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:37:32)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:7:17)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at _set (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:14:2)
+    at set (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:5:26)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:41:52.989Z"}
+error: 
+    status - 500 
+    message - TypeError: Invalid argument type
+    at encodeCommand (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:17:19)
+    at RedisCommandsQueue.getCommandToSend (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\commands-queue.js:138:45)
+    at Commander._RedisClient_tick (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\index.js:507:76)
+    at Commander._RedisClient_sendCommand (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\index.js:494:82)
+    at Commander.commandsExecutor (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.set (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:8:30)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at set (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:5:26)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:42:29.716Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:44:40.318Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:44:40.408Z"}
+error: 
+    status - 500 
+    message - TypeError: Invalid argument type
+    at encodeCommand (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:17:19)
+    at RedisCommandsQueue.getCommandToSend (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\commands-queue.js:138:45)
+    at Commander._RedisClient_tick (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\index.js:507:76)
+    at Commander._RedisClient_sendCommand (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\index.js:494:82)
+    at Commander.commandsExecutor (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.set (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:7:30)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at _set (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:13:2)
+    at set (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:4:26)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:44:44.721Z"}
+error: 
+    status - 500 
+    message - TypeError: Invalid argument type
+    at encodeCommand (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\RESP2\encoder.js:17:19)
+    at RedisCommandsQueue.getCommandToSend (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\commands-queue.js:138:45)
+    at Commander._RedisClient_tick (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\index.js:507:76)
+    at Commander._RedisClient_sendCommand (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\index.js:494:82)
+    at Commander.commandsExecutor (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\client\index.js:193:154)
+    at Commander.set (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:7:30)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at set (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:4:26)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:201:9)
+    at invokeCallback (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:538:35)
+    at IncomingMessage.emit (node:domain:475:12) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T06:47:32.677Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:53:25.653Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:53:25.774Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:54:02.353Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:54:02.497Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:54:26.185Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:54:26.237Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:54:45.526Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:54:45.575Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:55:13.448Z"}
+info: Connected to the redis database -  {"timestamp":"2023-03-01T06:55:13.472Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:55:13.487Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:56:21.825Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T06:56:21.864Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:56:21.919Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T06:59:43.852Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T06:59:43.878Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T06:59:43.902Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:01:25.661Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:01:25.726Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:01:25.762Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:04:52.274Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:04:52.345Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:04:52.366Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:06:01.474Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:06:01.619Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:06:01.760Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:06:30.620Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:06:30.654Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:06:30.668Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:07:06.318Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:07:06.390Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:07:06.417Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:08:18.478Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:08:18.561Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:08:18.605Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:08:48.355Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:08:48.412Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:08:48.484Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:09:15.918Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:09:15.986Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:09:16.027Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:10:38.682Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:10:38.766Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:10:38.797Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:11:02.423Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:11:02.450Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:11:02.465Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:13:07.687Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:13:07.848Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:13:07.953Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:13:35.022Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:13:35.051Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:13:35.068Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:15:12.071Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:15:12.103Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:15:12.122Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:19:46.513Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:19:46.618Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:19:46.638Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:20:17.897Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:20:17.999Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:20:18.035Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:30:17.662Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:30:17.688Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:30:17.702Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.json (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\response.js:275:10)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/note.controller.js:11:25)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 13:00:28 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":395836},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19209638,"external":20789773,"heapTotal":166232064,"heapUsed":138184344,"rss":203427840},"pid":8736,"uid":null,"version":"v16.14.2"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.json (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js:275:10)\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/note.controller.js:11:25)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T07:30:28.376Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":576,"method":"setHeader","native":false},{"column":10,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":10,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":275,"method":"json","native":false},{"column":25,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/note.controller.js","function":"_callee$","line":11,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:36:03.824Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:36:03.902Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:36:03.923Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\response.js:278:15)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/note.controller.js:11:25)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 13:06:24 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":396193},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18332821,"external":20800346,"heapTotal":152150016,"heapUsed":86733936,"rss":188035072},"pid":15668,"uid":null,"version":"v16.14.2"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js:278:15)\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/note.controller.js:11:25)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T07:36:25.010Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":576,"method":"setHeader","native":false},{"column":10,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":25,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/note.controller.js","function":"_callee$","line":11,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:37:37.712Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:37:37.795Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:37:37.851Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.json (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\response.js:275:10)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/note.controller.js:11:25)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 13:07:40 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":396269},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18331223,"external":20817981,"heapTotal":151363584,"heapUsed":86521832,"rss":187670528},"pid":11124,"uid":null,"version":"v16.14.2"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.json (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js:275:10)\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/note.controller.js:11:25)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T07:37:40.684Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":576,"method":"setHeader","native":false},{"column":10,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":10,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":275,"method":"json","native":false},{"column":25,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/note.controller.js","function":"_callee$","line":11,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:38:57.278Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:38:57.353Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:38:57.373Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:42:09.998Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:42:10.073Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:42:10.111Z"}
+error: uncaughtException: res.status(...).json.stringify is not a function
+TypeError: res.status(...).json.stringify is not a function
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:27:36)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 13:12:19 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":396548},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18301789,"external":20777208,"heapTotal":153198592,"heapUsed":85754392,"rss":189153280},"pid":17100,"uid":null,"version":"v16.14.2"},"stack":"TypeError: res.status(...).json.stringify is not a function\n    at _callee2$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js:27:36)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T07:42:19.752Z","trace":[{"column":36,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js","function":"_callee2$","line":27,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:43:29.883Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:43:29.929Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:43:29.948Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:44:34.208Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:44:34.244Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:44:34.266Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:45:17.250Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:45:17.288Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:45:17.348Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:48:12.411Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:48:12.457Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:48:12.474Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:52:56.266Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:52:56.334Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:52:56.373Z"}
+error: uncaughtException: ERR unknown command 'JSON.GET'
+  No stack trace {"date":"Wed Mar 01 2023 13:23:02 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":397191},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18287738,"external":20746739,"heapTotal":153985024,"heapUsed":85689224,"rss":189743104},"pid":20476,"uid":null,"version":"v16.14.2"},"timestamp":"2023-03-01T07:53:02.761Z","trace":[]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:56:23.244Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:56:23.271Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:56:23.287Z"}
+error: uncaughtException: WRONGTYPE Operation against a key holding the wrong kind of value
+  No stack trace {"date":"Wed Mar 01 2023 13:26:28 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":397397},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18807709,"external":20739891,"heapTotal":149921792,"heapUsed":111439256,"rss":187011072},"pid":7076,"uid":null,"version":"v16.14.2"},"timestamp":"2023-03-01T07:56:28.743Z","trace":[]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T07:59:34.734Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T07:59:34.809Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T07:59:34.852Z"}
+error: uncaughtException: ERR unknown command 'J'
+  No stack trace {"date":"Wed Mar 01 2023 13:29:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":397589},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18287731,"external":20778373,"heapTotal":151363584,"heapUsed":85942672,"rss":187162624},"pid":9652,"uid":null,"version":"v16.14.2"},"timestamp":"2023-03-01T07:59:40.806Z","trace":[]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:00:17.762Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:00:17.866Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:00:17.908Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:01:49.542Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:01:49.603Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:01:49.619Z"}
+error: uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:33:22)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 13:31:56 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":397724},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18301789,"external":20803636,"heapTotal":150577152,"heapUsed":85973568,"rss":186560512},"pid":6084,"uid":null,"version":"v16.14.2"},"stack":"SyntaxError: Unexpected token o in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at _callee2$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js:33:22)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T08:01:56.086Z","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js","function":"_callee2$","line":33,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:03:29.787Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:03:29.840Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:03:29.858Z"}
+error: uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:30:18)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 13:34:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":397869},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18301648,"external":19880467,"heapTotal":88973312,"heapUsed":83248712,"rss":123678720},"pid":9752,"uid":null,"version":"v16.14.2"},"stack":"SyntaxError: Unexpected token o in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at _callee2$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js:30:18)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T08:04:20.846Z","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":18,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js","function":"_callee2$","line":30,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:04:44.248Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:04:44.306Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:04:44.352Z"}
+error: uncaughtException: Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:30:18)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 13:34:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":397896},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18301789,"external":20810083,"heapTotal":151625728,"heapUsed":86063928,"rss":187428864},"pid":14560,"uid":null,"version":"v16.14.2"},"stack":"SyntaxError: Unexpected end of JSON input\n    at JSON.parse (<anonymous>)\n    at _callee2$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js:30:18)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T08:04:48.074Z","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":18,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js","function":"_callee2$","line":30,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:06:22.531Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:06:22.628Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:06:22.649Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:07:28.923Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:07:28.995Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:07:29.042Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:09:41.313Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:09:41.378Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:09:41.396Z"}
+error: uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:24:26)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 13:39:46 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":398194},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18301789,"external":20760981,"heapTotal":151101440,"heapUsed":85857968,"rss":186949632},"pid":18280,"uid":null,"version":"v16.14.2"},"stack":"SyntaxError: Unexpected token o in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at _callee2$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js:24:26)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T08:09:46.183Z","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":26,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js","function":"_callee2$","line":24,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:10:39.968Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:10:40.044Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:10:40.060Z"}
+error: uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:24:26)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 13:40:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":398252},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18301789,"external":20768721,"heapTotal":152936448,"heapUsed":85985136,"rss":188583936},"pid":7820,"uid":null,"version":"v16.14.2"},"stack":"SyntaxError: Unexpected token o in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at _callee2$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js:24:26)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T08:10:43.642Z","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":26,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js","function":"_callee2$","line":24,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:11:14.809Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:11:14.846Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:11:14.861Z"}
+error: uncaughtException: o is not defined
+ReferenceError: o is not defined
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:26:15)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 13:41:17 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":398285},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18326365,"external":20770234,"heapTotal":165470208,"heapUsed":132488464,"rss":201183232},"pid":7060,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: o is not defined\n    at _callee2$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js:26:15)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T08:11:17.159Z","trace":[{"column":15,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js","function":"_callee2$","line":26,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:11:36.879Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:11:36.994Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:11:37.009Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:12:00.697Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:12:00.774Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:12:00.810Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:12:21.317Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:12:21.392Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:12:21.422Z"}
+error: uncaughtException: nil is not defined
+ReferenceError: nil is not defined
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:26:15)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 13:42:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":398352},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18301789,"external":20777120,"heapTotal":150839296,"heapUsed":85862384,"rss":186990592},"pid":15992,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: nil is not defined\n    at _callee2$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js:26:15)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T08:12:24.378Z","trace":[{"column":15,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js","function":"_callee2$","line":26,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:12:45.680Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:12:45.705Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:12:45.762Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:16:31.317Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:16:31.415Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:16:31.429Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:17:39.162Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:17:39.222Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:17:39.243Z"}
+error: uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:25:22)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 13:47:42 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":398671},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18301789,"external":20777428,"heapTotal":151887872,"heapUsed":86006584,"rss":187654144},"pid":6720,"uid":null,"version":"v16.14.2"},"stack":"SyntaxError: Unexpected token o in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at _callee2$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js:25:22)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T08:17:43.002Z","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js","function":"_callee2$","line":25,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T08:18:13.027Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T08:18:13.092Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:18:13.130Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:09:30.055Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:09:30.114Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:09:30.148Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:18:12.969Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:18:13.108Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:18:13.122Z"}
+error: uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:31:18)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 14:48:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":402309},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18301789,"external":20804359,"heapTotal":150052864,"heapUsed":86362808,"rss":185905152},"pid":5036,"uid":null,"version":"v16.14.2"},"stack":"SyntaxError: Unexpected token o in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at _callee2$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js:31:18)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T09:18:20.572Z","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":18,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js","function":"_callee2$","line":31,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:22:33.238Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:22:33.310Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:22:33.352Z"}
+error: uncaughtException: Cannot read properties of undefined (reading '0')
+TypeError: Cannot read properties of undefined (reading '0')
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:31:22)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 14:52:38 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":402567},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18301789,"external":20774016,"heapTotal":153722880,"heapUsed":86125344,"rss":189763584},"pid":17360,"uid":null,"version":"v16.14.2"},"stack":"TypeError: Cannot read properties of undefined (reading '0')\n    at _callee2$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js:31:22)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T09:22:38.506Z","trace":[{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js","function":"_callee2$","line":31,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:23:04.553Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:23:04.632Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:23:04.680Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:24:01.320Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:24:01.394Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:24:01.441Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:25:00.256Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:25:00.335Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:25:00.379Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:25:20.354Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:25:20.394Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:25:20.421Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:27:41.428Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:27:41.472Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:27:41.485Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:28:08.246Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:28:08.289Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:28:08.328Z"}
+error: uncaughtException: Unexpected token o in JSON at position 1
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:25:20)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 14:58:10 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":402898},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18301789,"external":20767199,"heapTotal":148742144,"heapUsed":85902816,"rss":184872960},"pid":3848,"uid":null,"version":"v16.14.2"},"stack":"SyntaxError: Unexpected token o in JSON at position 1\n    at JSON.parse (<anonymous>)\n    at _callee2$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js:25:20)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T09:28:10.362Z","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":20,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js","function":"_callee2$","line":25,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:47:06.879Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:47:06.909Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:47:06.927Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:49:12.786Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:49:12.861Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:49:12.893Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:49:28.363Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:49:28.449Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:49:28.476Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:54:30.137Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:54:30.236Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:54:30.279Z"}
+error: uncaughtException: Cannot read properties of null (reading 'data')
+TypeError: Cannot read properties of null (reading 'data')
+    at _callee2$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\middlewares\/redisData.js:33:18)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 15:25:33 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":404542},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18310459,"external":19889278,"heapTotal":90546176,"heapUsed":84502136,"rss":124489728},"pid":13664,"uid":null,"version":"v16.14.2"},"stack":"TypeError: Cannot read properties of null (reading 'data')\n    at _callee2$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js:33:18)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T09:55:33.666Z","trace":[{"column":18,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\middlewares\\/redisData.js","function":"_callee2$","line":33,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:56:13.672Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:56:13.757Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:56:13.803Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T09:59:12.047Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T09:59:12.133Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:59:12.179Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:01:10.129Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:01:10.219Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:01:10.246Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:02:46.129Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:02:46.185Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:02:46.246Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:04:23.462Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:04:23.515Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:04:23.547Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:06:08.607Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:06:08.699Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:06:08.722Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.json (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\response.js:275:10)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/note.controller.js:11:25)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 15:36:14 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":405182},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18331285,"external":20807401,"heapTotal":153985024,"heapUsed":86547504,"rss":190201856},"pid":8748,"uid":null,"version":"v16.14.2"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.json (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js:275:10)\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/note.controller.js:11:25)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T10:06:14.381Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":576,"method":"setHeader","native":false},{"column":10,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":10,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":275,"method":"json","native":false},{"column":25,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/note.controller.js","function":"_callee$","line":11,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:06:51.858Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:06:51.932Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:06:51.954Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\response.js:278:15)
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/note.controller.js:11:25)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 15:37:08 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":405237},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18332256,"external":20792031,"heapTotal":149790720,"heapUsed":86870256,"rss":186134528},"pid":7004,"uid":null,"version":"v16.14.2"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js:278:15)\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/note.controller.js:11:25)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T10:07:08.700Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":576,"method":"setHeader","native":false},{"column":10,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":25,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/note.controller.js","function":"_callee$","line":11,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:08:03.133Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:08:03.235Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:08:03.260Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:08:14.975Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:08:15.021Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:08:15.056Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'status')
+TypeError: Cannot read properties of undefined (reading 'status')
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\controllers\/note.controller.js:11:7)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 15:38:19 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":405308},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303271,"external":20778811,"heapTotal":153722880,"heapUsed":86277216,"rss":189911040},"pid":14552,"uid":null,"version":"v16.14.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'status')\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/note.controller.js:11:7)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T10:08:19.651Z","trace":[{"column":7,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\controllers\\/note.controller.js","function":"_callee$","line":11,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:09:03.857Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:09:03.940Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:09:03.986Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:11:07.446Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:11:07.519Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:11:07.533Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:12:32.291Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:12:32.366Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:12:32.424Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:13:54.255Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:13:54.435Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:13:54.456Z"}
+error: uncaughtException: WRONGTYPE Operation against a key holding the wrong kind of value
+  No stack trace {"date":"Wed Mar 01 2023 15:44:06 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":405655},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18288744,"external":20755975,"heapTotal":153198592,"heapUsed":86111424,"rss":188473344},"pid":16832,"uid":null,"version":"v16.14.2"},"timestamp":"2023-03-01T10:14:06.699Z","trace":[]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:17:41.585Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:17:41.652Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:17:41.673Z"}
+error: uncaughtException: WRONGTYPE Operation against a key holding the wrong kind of value
+  No stack trace {"date":"Wed Mar 01 2023 15:47:46 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":405875},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18287773,"external":20797446,"heapTotal":151363584,"heapUsed":85696912,"rss":187514880},"pid":17588,"uid":null,"version":"v16.14.2"},"timestamp":"2023-03-01T10:17:46.972Z","trace":[]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:18:12.976Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:18:13.058Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:18:13.097Z"}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:211:15)
+    at Function.get (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\routes\/note.route.js:10:8)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.newLoader [as .js] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.newLoader [as .js] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.newLoader [as .js] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.runMain (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Wed Mar 01 2023 15:59:53 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":406601},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19034643,"external":24490637,"heapTotal":105922560,"heapUsed":80166584,"rss":139345920},"pid":1128,"uid":null,"version":"v16.14.2"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.get (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\routes\\/note.route.js:10:8)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Object.newLoader [as .js] (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Object.newLoader [as .js] (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Object.newLoader [as .js] (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.runMain (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2023-03-01T10:29:53.097Z","trace":[{"column":15,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":211,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":521,"method":"get","native":false},{"column":8,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\routes\\/note.route.js","function":null,"line":10,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":7,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":7,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":7,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":77,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\route.js:211:15)
+    at Function.post (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\express\lib\router\index.js:521:19)
+    at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\routes\/note.route.js:19:8)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.newLoader [as .js] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.newLoader [as .js] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\/index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Module._compile (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Object.newLoader [as .js] (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.runMain (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1103:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Wed Mar 01 2023 16:00:16 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":406624},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18919015,"external":30541270,"heapTotal":101990400,"heapUsed":76297800,"rss":135491584},"pid":12512,"uid":null,"version":"v16.14.2"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\router\\route.js:211:15)\n    at Function.post (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at Object.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\routes\\/note.route.js:19:8)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Object.newLoader [as .js] (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Object.newLoader [as .js] (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\/index.js:8:1)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Module._compile (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Object.newLoader [as .js] (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.runMain (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1103:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1157:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2023-03-01T10:30:16.430Z","trace":[{"column":15,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":211,"method":"<computed> [as post]","native":false},{"column":19,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\express\\lib\\router\\index.js","function":"Function.post","line":521,"method":"post","native":false},{"column":8,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\routes\\/note.route.js","function":null,"line":19,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":7,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":7,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\/index.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":7,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":77,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1103,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1157,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:30:31.472Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:30:31.541Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:30:31.636Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:31:12.907Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:31:13.000Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:31:13.120Z"}
+error: uncaughtException: client is not defined
+ReferenceError: client is not defined
+    at _callee$ (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\src\services\/note.service.js:11:19)
+    at tryCatch (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\SHREEKANT\Desktop\Node_Projects\fundoo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Mar 01 2023 16:01:39 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":406708},"process":{"argv":["node","C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\index.js"],"cwd":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18304953,"external":19924727,"heapTotal":146382848,"heapUsed":86405512,"rss":182722560},"pid":8640,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: client is not defined\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\services\\/note.service.js:11:19)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-03-01T10:31:39.688Z","trace":[{"column":19,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\services\\/note.service.js","function":"_callee$","line":11,"method":null,"native":false},{"column":17,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:32:29.711Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:32:29.782Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:32:29.807Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:37:29.781Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:37:29.893Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:37:29.924Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:41:12.182Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:41:12.271Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:41:12.311Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:46:24.701Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:46:24.774Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:46:24.819Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:49:55.460Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:49:55.510Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:49:55.539Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:51:15.095Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:51:15.173Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:51:15.193Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:53:18.273Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:53:18.349Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:53:18.368Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:53:40.593Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:53:40.619Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:53:40.630Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T10:57:39.231Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T10:57:39.323Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T10:57:39.359Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-01T11:00:26.539Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-01T11:00:26.615Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T11:00:26.646Z"}
