@@ -67,11 +67,20 @@ export const getById = async (noteId, userId) => {
 //To Update Note using note id
 export const update = async (noteId, body) => {
   var response;
-  const data = await noteModel.find({ _id: noteId, userId: body.userId });
-  if (data[0] != null) {
-    const data = await noteModel.findByIdAndUpdate(noteId, body, {
+  // const data = await noteModel.find({ _id: noteId, userId: body.userId });
+  const data = await noteModel.findOneAndUpdate(
+    { _id: noteId, userId: body.userId },
+    body,
+    {
       new: true
-    });
+    }
+  );
+  console.log(data);
+
+  if (data != null) {
+    // const data = await noteModel.findByIdAndUpdate(noteId, body, {
+    //   new: true
+    // });
 
     response = {
       code: HttpStatus.OK,

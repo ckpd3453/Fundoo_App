@@ -1,0 +1,139 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T08:12:06.978Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T08:15:52.072Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T08:15:52.102Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\SHREEKANT\\Desktop\\Node_Projects\\fundoo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2023-03-02T08:16:22.102Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T08:17:27.597Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T08:17:27.632Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T08:17:27.713Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T08:23:40.608Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T08:23:40.637Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T08:23:40.653Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T08:26:23.479Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T08:26:23.572Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T08:26:23.593Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T08:28:41.146Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T08:28:41.230Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T08:28:41.269Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T14:45:59.298Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T14:45:59.345Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T14:45:59.358Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T14:51:36.002Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T14:51:36.040Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T14:51:36.081Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T14:58:22.006Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T14:58:22.079Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T14:58:22.117Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:01:21.835Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:01:21.897Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:01:21.929Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:04:25.879Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:04:25.933Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:04:25.958Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:05:49.951Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:05:50.003Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:05:50.030Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:07:15.957Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:07:16.074Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:07:16.096Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:09:47.888Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:09:47.914Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:09:47.929Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:10:30.397Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:10:30.419Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:10:30.431Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:11:33.700Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:11:33.751Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:11:33.782Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:12:49.241Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:12:49.297Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:12:49.320Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:14:29.581Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:14:29.656Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:14:29.713Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:15:36.302Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:15:36.363Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:15:36.405Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:16:15.099Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:16:15.170Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:16:15.217Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:17:41.157Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:17:41.224Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:17:41.243Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:18:03.434Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:18:03.511Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:18:03.534Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:21:45.187Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:21:45.211Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:21:45.226Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:25:39.488Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:25:39.592Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:25:39.660Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:26:49.465Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:26:49.521Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:26:49.577Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:28:06.785Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:28:06.860Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:28:06.901Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:29:39.636Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:29:39.669Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:29:39.686Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:33:20.147Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:33:20.184Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:33:20.218Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:35:00.089Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:35:00.115Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:35:00.130Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T15:36:52.760Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T15:36:52.843Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T15:36:52.868Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:14:17.665Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:14:17.697Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:14:17.707Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:18:39.515Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:18:39.620Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:18:39.645Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:21:28.377Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:21:28.411Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:21:28.426Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:22:31.425Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:22:31.551Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:22:31.578Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:28:13.124Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:28:13.200Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:28:13.247Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:29:02.885Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:29:02.979Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:29:03.040Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:29:30.155Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:29:30.194Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:29:30.214Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:30:21.407Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:30:21.541Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:30:21.558Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:31:50.529Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:31:50.635Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:31:50.690Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:32:40.455Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:32:40.491Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:32:40.506Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:35:16.754Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:35:16.848Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:35:16.873Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:37:25.434Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:37:25.530Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:37:25.550Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:40:33.839Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:40:33.882Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:40:33.904Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:41:29.457Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:41:29.531Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:41:29.608Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:43:04.198Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:43:04.237Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:43:04.255Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:47:41.873Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:47:41.910Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:47:41.922Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-03-02T16:49:33.792Z"}
+info: Connected to the redis database - true {"timestamp":"2023-03-02T16:49:33.867Z"}
+info: Connected to the database. {"timestamp":"2023-03-02T16:49:33.921Z"}

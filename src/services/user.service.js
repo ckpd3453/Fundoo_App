@@ -2,6 +2,8 @@ import User from '../models/user.model';
 import HttpStatus from 'http-status-codes';
 import * as bcrypt from '../middlewares/bcrypt.middleware';
 import * as jwt from '../middlewares/jwt.middleware';
+import { sender } from '../utils/sender';
+import reciever from '../utils/reciever';
 
 const nodemailer = require('nodemailer');
 const sendVerificationMail = (email, token) => {
@@ -62,6 +64,8 @@ export const newUser = async (body) => {
       message: 'User is Already Registered'
     };
   }
+  sender(response.message);
+  reciever();
   return response;
 };
 
