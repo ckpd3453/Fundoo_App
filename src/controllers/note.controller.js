@@ -99,6 +99,19 @@ export const archive = async (req, res) => {
   });
 };
 
+export const collaborator = async (req, res) => {
+  const data = await noteService.collaborator(
+    req.body.userId,
+    req.params._id,
+    req.params.email
+  );
+  res.status(data.code).json({
+    code: data.code,
+    data: data.data,
+    message: data.message
+  });
+};
+
 // /**
 //  * Get All trashed Notes
 //  * @param {Object} req

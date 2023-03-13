@@ -21,7 +21,14 @@ const noteSchema = new Schema(
     },
     userId: {
       type: String
-    }
+    },
+    collaborator: [
+      {
+        email: {
+          type: String
+        }
+      }
+    ]
   },
   {
     timestamps: true

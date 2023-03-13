@@ -33,4 +33,6 @@ router.put('/trash/:_id', userAuth, noteController.trash);
 //Archive notes of Particular user
 router.put('/archive/:_id', userAuth, noteController.archive);
 
+router.put('/collab/:_id/:email', userAuth, noteController.collaborator);
+
 export default router;

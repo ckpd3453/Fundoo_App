@@ -1,6 +1,7 @@
 import noteModel from '../models/note.model';
 import HttpStatus from 'http-status-codes';
 import { client } from '../config/redisDb';
+import User from '../models/user.model';
 
 //To Get all notes
 export const getAll = async (userId) => {
@@ -75,7 +76,6 @@ export const update = async (noteId, body) => {
       new: true
     }
   );
-  console.log(data);
 
   if (data != null) {
     // const data = await noteModel.findByIdAndUpdate(noteId, body, {
@@ -232,3 +232,39 @@ export const trash = async (noteId, userId) => {
 //   }
 //   return response;
 // };
+
+export const collaborator = async (userId, noteId, email) => {
+  const isRegisterdUser = await User.findOne({ email: email });
+  var response;
+  if (!isRegisterdUser) {
+    response = {
+      code: HttpStatus.BAD_REQUEST,
+      data: 'User is not registered',
+      message: 'Register User'
+    };
+  } else {
+    const note = await noteModel.find({ _id: noteId, userId: userId });
+    const check = note[0].collaborator.filter((obj) => obj.email === email);
+    if (check[0] == null) {
+      const collab = {
+        email: email
+      };
+
+      note[0].collaborator.push(collab);
+      const collaborate = await update(noteId, note[0]);
+
+      response = {
+        code: HttpStatus.OK,
+        data: collaborate,
+        message: 'Collaborator added successfully.'
+      };
+    } else {
+      response = {
+        code: HttpStatus.BAD_REQUEST,
+        data: 'Already Added as Collaborator',
+        message: 'Email Already added'
+      };
+    }
+  }
+  return response;
+};
